@@ -32,7 +32,8 @@
         <h2>Just a test for my vscode</h2>
         <p><a href="#pagetop">linktest</a></p>
     <!--Just a basic table test that's gonna look a lot better after we learn css-->
-
+        <fieldset>
+        <legend>My things</legend>
         <table>
             <thead>
             <tr>
@@ -55,6 +56,7 @@
             <td><i>SAO</i></td>
             </tr>
         </table>
+        </fieldset>
         </div>
         <hr/>
     <!--Basic formulary test (improve it later), we are not gonna put a fake server name here-->
@@ -64,14 +66,14 @@
         <input type="text" name="username" size="10" maxlenght="20">
         </p>   
 
-        <!--Radio buttom form. This is just a test for me to use it sometime in the future-->
+        <!--Radio buttom form. This is just a test for me to use it sometime in the future(The label atribute with the id atribute is cool and makes the codee cleaner let's use it)-->
         <p>
             What is your favorite artwork?<br />
-            <input type="radio" name="genre" value="lain">
-            Lain
-            <input type="radio"  name="genre" value="the social network">
-            The Social Network
+            <input id="lain" type="radio" name="genre" value="lain">
+            <label for="lain">Lain</label>
 
+            <input id="the social network" type="radio"  name="genre" value="the social network">
+            <label for="the social network">The Social Network</label>
         </p>
         <!--Checkbox test for me to use it in the future of the site (just as a funny fact, you can use the checked atribute inside the checkbox input to make it checked)-->
         <p>
@@ -107,6 +109,13 @@
             Put your money here(and click the sad touhou girl to send):<br />
             <input type="text" name="dontmatter" ><br />
             <input type="image" src="images/sadtouhou.gif" width="100">
+        </p>
+        <!--Microsoft xp button (it's useless, rip it of later)-->
+        <p>
+            <button>
+                <img src="images/windowsxp.gif" width="300"  />
+                add
+            </button>
         </p>
         <textarea name="comments" cols="20" rows="6">Comment here</textarea>
     </form>
