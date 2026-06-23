@@ -118,7 +118,7 @@
             </button>
         </p>
         <!--Requiring an specific format of form answer to the user (cool stuff) and date format-->
-        <textarea name="comments" cols="20" rows="6">Comment here</textarea> <br />
+        <textarea name="comments" cols="20" rows="6" placeholder="Comment here"></textarea> <br />
         <label for="email">Email</label>
         <input type="email" name="email"> <br />
         <label for="passwd">Password</label>
@@ -126,7 +126,12 @@
         <label for="submits"></label> <br />
         <label for="date">Date</label>
         <input type="date" name="date">
-        <input type="submit" name="submits">
+        <input type="submit" name="submits"><br />
+
+        <!--Basic site search, fetch the server for info using the following-->
+        <label for="search">Search on Diary Logs:</label><br />
+        <input type="search" name="search" placeholder="search">
+        <input type="submit" name="Search">
     </form>
     
     <hr/>
