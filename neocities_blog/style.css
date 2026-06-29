@@ -1,6 +1,17 @@
 body{
-    background-color:slategrey;
+    background-color:#0d0d10;
 }
-h1,h2{
-    color:brown;   
+
+figcaption{
+    color:#FFFFFF;
+}
+h1,h2,h3,h4{
+    color:#FFFFFF;
+}
+p{
+    color:#FFFFFF;
+}
+#intropage{
+    background-color:#050c2a;
+    border:0px solid #e8e6e3;
 }
