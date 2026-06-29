@@ -7,6 +7,7 @@ figcaption{
 }
 h1,h2,h3,h4{
     color:#FFFFFF;
+    text-shadow: 6px 2px 3px #000000;
 }
 p{
     color:#FFFFFF;
@@ -14,4 +15,5 @@ p{
 #intropage{
     background-color:#050c2a;
     border:0px solid #e8e6e3;
+    box-shadow: 1 2 3px #cdd6f4;
 }
