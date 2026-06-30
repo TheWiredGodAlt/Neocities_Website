@@ -1,3 +1,4 @@
+/*Remember to organize all the project archives */
 body{
     background-color:#0d0d10;
 }
@@ -13,21 +14,28 @@ p{
     color:#FFFFFF;
 }
 p.one{
-    /*For the border to appear you need to specify it's style*/
-    border-width:2px;
-    border-style:dashed;
-    /*You can specify the color, and the style and the property of the border by adding more parameters */
-    border-color:#000000 #FFFFFF #FFFFFF;
-}
-#testid{
     width:700px;
-    border-width:5px;
     background-color:#72bbff;
-
+    padding:50px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:0px;
+    /*For the border to appear you need to specify it's style*/
+    border-width:10px;
+    border-style:solid;
+    /*You can specify the color, and the style and the property of the border by adding more parameters */
+    border-color:#000000 #FFFFFF #000000  #FFFFFF;
 }
 
 #intropage{
+    width:800px;
+    padding:4px;
+    margin-left:auto;
+    margin-right:auto;
     background-color:#050c2a;
-    border:0px solid #e8e6e3;
-    box-shadow: 1 2 3px #cdd6f4;
+    border-width:5px;
+    border-style:solid;
+    border-color:#000000 #FFFFFF #000000  #FFFFFF;
+    border-radius:0px;
+    margin-bottom:5px;
 }
