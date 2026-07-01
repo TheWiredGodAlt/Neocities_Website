@@ -1,6 +1,11 @@
 /*Remember to organize all the project archives */
 body{
-    background-color:#0d0d10;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-right:auto;
+    margin-left:auto;
+    width:900px;
+    background-color:#47545d;
 }
 
 figcaption{
@@ -14,19 +19,19 @@ p{
     color:#FFFFFF;
 }
 p.one{
-    width:700px;
-    background-color:#72bbff;
-    padding:50px;
+    width:500px;
+    background-color:#828776;
+    padding:20px;
     margin-left:auto;
     margin-right:auto;
     margin-top:0px;
     /*For the border to appear you need to specify it's style*/
-    border-width:10px;
+    border-width:2px;
     border-style:solid;
     /*You can specify the color, and the style and the property of the border by adding more parameters */
     border-color:#000000 #FFFFFF #000000  #FFFFFF;
+    border-radius:0;
 }
-
 #intropage{
     width:800px;
     padding:4px;
