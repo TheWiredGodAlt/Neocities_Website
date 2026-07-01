@@ -31,6 +31,7 @@ p.one{
     /*You can specify the color, and the style and the property of the border by adding more parameters */
     border-color:#000000 #FFFFFF #000000  #FFFFFF;
     border-radius:0;
+    box-shadow:6px 4px 5px #000000;
 }
 #intropage{
     width:800px;
@@ -43,4 +44,5 @@ p.one{
     border-color:#000000 #FFFFFF #000000  #FFFFFF;
     border-radius:0px;
     margin-bottom:5px;
+    box-shadow: inset 1px 1px 6px #000000;
 }
