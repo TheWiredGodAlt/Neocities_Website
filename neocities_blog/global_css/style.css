@@ -36,15 +36,15 @@ p.one{
     box-shadow:6px 4px 5px #000000;
 }
 #intropage{
-    width:800px;
+    width:540px;
     padding:4px;
     margin-left:auto;
     margin-right:auto;
-    background-color:#050c2a;
-    border-width:5px;
+    background-color:#828776;
+    border-width:2px;
     border-style:solid;
     border-color:#000000 #FFFFFF #000000  #FFFFFF;
     border-radius:0px;
-    margin-bottom:5px;
-    box-shadow: inset 1px 1px 6px #000000;
+    margin-bottom:4px;
+    box-shadow: 6px 1px 6px #000000;
 }
