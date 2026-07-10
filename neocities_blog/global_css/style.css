@@ -1,57 +1,54 @@
 /*todo: Start the linear gradient learning*/
 /*Remember to organize all the project archives */
+#pagetop{
+    float:right;
+    margin-right:90px;
+}
 body{
     margin-top:10px;
     margin-bottom:10px;
     margin-right:auto;
     margin-left:auto;
     width:900px;
-    background-color:#298076;
-    background-image:url("images/laincement.jpg");
+    background-color:#708090;
 }
-
-figcaption{
+h1,h2,h3{
     color:#FFFFFF;
+    text-shadow: 3px 2px 1px #000000;
 }
-h1,h2,h3,h4{
-    color:#FFFFFF;
-    text-shadow: 6px 2px 3px #000000;
-}
-p{
-    color:#FFFFFF;
-}
-p.one{
+p.basictext{
     width:500px;
-    background-color:#828776;
+    height:280px;
     padding:20px;
     margin-left:auto;
     margin-right:auto;
     margin-top:0px;
+    margin-bottom:0px;
     float:right;
+    color:#000000;
+    background-color:#708090;
     /*For the border to appear you need to specify it's style*/
-    border-width:2px;
-    border-top:10px;
-    border-style:solid;
     /*You can specify the color, and the style and the property of the border by adding more parameters */
-    border-color:#020183 #000000 #000000  #000000;
-    border-radius:0;
-    box-shadow:6px 4px 5px #000000;
 }
 
 #navigation_menu{
-
-    background-color:#000000;
     width:250px;
     padding:30px;
     margin-left:20px;
-    border-width:1px;
 
+    background-color:#708090;
 }
+#madotsukisleep{
+    width:200px;
 
-#clippy{
-
-    margin-top:200px;
-
+    background-color:#708090;
+}
+#madno{
+    width:200px;
+    float:right;
+    margin-right:200px;
+    margin-top:-50px;
+    background-color:#708090;
 }
 
 #intropage{
@@ -59,11 +56,9 @@ p.one{
     padding:4px;
     margin-left:auto;
     margin-right:auto;
-    margin-bottom:4px;
-    background-color:#007b70;
-    border-width:2px;
+    margin-bottom:0px;
     border-style:solid;
-    border-color:#000000 #FFFFFF #000000  #FFFFFF;
     border-radius:0px;
     box-shadow: 6px 1px 6px #000000;
+    background-color:#708090;
 }
