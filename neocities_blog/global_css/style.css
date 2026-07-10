@@ -18,36 +18,41 @@ h1,h2,h3{
 }
 p.basictext{
     width:500px;
-    height:280px;
+    height:380px;
     padding:20px;
-    margin-left:auto;
-    margin-right:auto;
     margin-top:0px;
     margin-bottom:0px;
     float:right;
     color:#000000;
-    background-color:#708090;
+    background-color:#c0c0c0;
+    box-shadow:4px 2px 1px #000000;
+    border-radius:5px;
     /*For the border to appear you need to specify it's style*/
     /*You can specify the color, and the style and the property of the border by adding more parameters */
 }
 
 #navigation_menu{
     width:250px;
-    padding:30px;
+    border-top-style:solid;
+    border-color:#ab9e9a;
+    border-top-width:1px;
+    padding:10px;
     margin-left:20px;
-
-    background-color:#708090;
+    background-color:#c0c0c0;
+    box-shadow:4px 2px 1px #000000;
+    border-radius:5px;
 }
 #madotsukisleep{
     width:200px;
-
+    margin-top:40px;
     background-color:#708090;
+
 }
 #madno{
-    width:200px;
+    width:180px;
     float:right;
     margin-right:200px;
-    margin-top:-50px;
+    margin-top:-60px;
     background-color:#708090;
 }
 
@@ -60,5 +65,8 @@ p.basictext{
     border-style:solid;
     border-radius:0px;
     box-shadow: 6px 1px 6px #000000;
-    background-color:#708090;
+    background-color:#c0c0c0;
+    box-shadow:4px 2px 1px #000000;
+    border-radius:5px;
+
 }
