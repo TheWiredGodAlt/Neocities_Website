@@ -70,3 +70,10 @@ p.basictext{
     border-radius:5px;
 
 }
+#basicbtn{
+    color:#FFFFFF;
+    margin:8px;
+    padding:6px;
+    background-color:#000000;
+    width:70px;
+}

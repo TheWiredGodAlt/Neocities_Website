@@ -8,7 +8,12 @@ function traintest(){
 };
 setTimeout.traintest, 60000
 //Function calling
-traintest()
+//Basic code that changes the html frontend (i still need to end this shit)
+document.getElementById('basicbtn').addEventListener('click', () => {
+        document.getElementById('test23').textContent='I hate you all';
+    });
+
+
 
 //Basic object training
 var obj={
