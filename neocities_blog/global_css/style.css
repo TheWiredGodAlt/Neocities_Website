@@ -34,8 +34,6 @@ p.basictext{
 
 #navigation_menu{
     width:250px;
-    border-top-style:solid;
-    border-color:#38b9ff;
     border-width:2px;
     padding:10px;
     margin-left:20px;
@@ -51,11 +49,6 @@ p.basictext{
 border-style:none;
 color:#000000;
 }
-
-#scaryeye{
-    width:200px;
-}
-
 #madotsukisleep{
     width:200px;
     margin-top:40px;
