@@ -1,71 +1,80 @@
 /*todo: Start the linear gradient learning*/
 /*Remember to organize all the project archives */
-body{
+#mainpage{
     margin-top:10px;
     margin-bottom:10px;
     margin-right:auto;
     margin-left:auto;
     width:900px;
-    background-color:#050d2c;
+    background-image: url("images/sega.jpg");
+}
+#bgtest{
+    float:center;
+    background-color:#708090;
+    width:600px;
+    height:475px;
+    border-radius:10px;
+    border-style: solid;
+    border-color:#708090;
 }
 
+
+#aboutsite{
+    width:544px;
+    padding:5px;
+    margin-bottom:0px;
+    margin-right:auto;
+    margin-left:auto;
+    color:#f1eded;
+    background-color:#5e5289;
+    box-shadow:0px 2px 0px #000000;
+    float:center;
+    text-align:left;
+}
 p.basictext{
     width:500px;
-    height:350px;
+    height:320px;
     padding:20px;
     padding-top:40px;
     margin-top:0px;
-    margin-bottom:0px;
-    margin-right:-100px;
-    float:right;
-    color:#9eccdb;
-    text-shadow:-1px 1px 1px #5e5289;
+    margin-bottom:-400px;
+    margin-right:auto;
+    margin-left:auto;
+    float:center;
+    background-color:#f1eded ;
+    color:#575748;
     text-align:center;
-    background-color:#000000;
-    box-shadow:4px 2px 1px #000000;
-    border-radius:5px;
+    border-radius:0px;
+    border-color:#000000;
+    border-width:3px;
     /*For the border to appear you need to specify it's style*/
     /*You can specify the color, and the style and the property of the border by adding more parameters */
 }
 
 #navigation_menu{
+    float:right;
     width:250px;
     border-width:2px;
     padding:10px;
-    margin-left:20px;
-    border-radius:5px;
+    margin-top:-455px;
+    margin-right: -150px;
+    border-radius:0px;
     color:#9eccdb;
     text-shadow:-1px 1px 1px #5e5289;
     text-align:center;
-    background-color:#000000;
+    background-color:#00000e;
     box-shadow:4px 2px 1px #000000;
 
-}
-#test12{
-border-style:none;
-color:#000000;
 }
 #madotsukisleep{
     width:200px;
     margin-top:40px;
     background-color:#050d2c;
 }
-
-#intropage{
-    width:540px;
-    padding:4px;
-    float:right;
-    margin-left:auto;
-    margin-right:auto;
-    margin-bottom:0px;
-    border-style:solid;
-    border-radius:0px;
-    box-shadow: 6px 1px 6px #000000;
-    background-color:#c0c0c0;
-    box-shadow:4px 2px 1px #000000;
-    border-radius:5px;
-
+#dancinglain{
+    width:150px;
 }
+
 #basicbtn{
     color:#FFFFFF;
     margin:8px;
