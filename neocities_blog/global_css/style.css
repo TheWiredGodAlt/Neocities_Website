@@ -10,20 +10,22 @@ body{
     margin-right:auto;
     margin-left:auto;
     width:900px;
-    background-color:#8cc2ef
+    background-color:#050d2c;
 }
 
 p.basictext{
     width:500px;
-    height:400px;
+    height:350px;
     padding:20px;
+    padding-top:40px;
     margin-top:0px;
     margin-bottom:0px;
     margin-right:-100px;
     float:right;
-    color:#000000;
-    background-color:#a1a4ad;
-    border-color:#ab9e9a;
+    color:#9eccdb;
+    text-shadow:-1px 1px 1px #5e5289;
+    text-align:center;
+    background-color:#000000;
     box-shadow:4px 2px 1px #000000;
     border-radius:5px;
     /*For the border to appear you need to specify it's style*/
@@ -31,26 +33,33 @@ p.basictext{
 }
 
 #navigation_menu{
-    color:#000000;
     width:250px;
-    text-align:center;
     border-top-style:solid;
-    border-color:#ab9e9a;
+    border-color:#38b9ff;
     border-width:2px;
     padding:10px;
     margin-left:20px;
-    background-color:#a1a4ad;
-    box-shadow:4px 2px 1px #000000;
     border-radius:5px;
+    color:#9eccdb;
+    text-shadow:-1px 1px 1px #5e5289;
+    text-align:center;
+    background-color:#000000;
+    box-shadow:4px 2px 1px #000000;
+
 }
 #test12{
 border-style:none;
 color:#000000;
 }
+
+#scaryeye{
+    width:200px;
+}
+
 #madotsukisleep{
     width:200px;
     margin-top:40px;
-    background-color:#8cc2ef;
+    background-color:#050d2c;
 }
 
 #intropage{
