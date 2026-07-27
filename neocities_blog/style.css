@@ -1,37 +1,32 @@
-/*todo: Start the linear gradient learning*/
-/*Remember to organize all the project archives */
+/*The page body's css*/
 #mainpage{
     margin-top:10px;
     margin-bottom:10px;
     margin-right:auto;
     margin-left:auto;
     width:900px;
+    height:399px;
     background-color:#048080;
 }
-#bgtest{
-    float:center;
-    background-color:#c1c5c1;
-    width:600px;
-    height:475px;
-    border-radius:10px;
-    border-style: solid;
-    border-color:#c1c5c1;
-    box-shadow:4px 2px 1px #000000;
-}
 
+/*Cool title for the about's text*/
 #aboutsite{
-    width:544px;
+    width:540px;
     padding:5px;
-    margin-bottom:0px;
+    margin-bottom:-13px;
     margin-right:auto;
-    margin-left:auto;
+    margin-left:-206px;
     color:#f1eded;
-    background-color:#5e5289;
-    box-shadow:0px 2px 0px #000000;
+    background-color:#010083;
+    box-shadow:1px 0px 2px #000000;
+    border-style:solid;
+    border-color:#000000;
+    border-width:1px;
     float:center;
     text-align:left;
 }
 p.basictext{
+    position:relative;
     width:500px;
     height:320px;
     padding:20px;
@@ -39,25 +34,27 @@ p.basictext{
     margin-top:0px;
     margin-bottom:-400px;
     margin-right:auto;
-    margin-left:auto;
+    margin-left:-200px;
     float:center;
     background-color:#f1eded ;
     color:#575748;
     text-align:center;
-    border-radius:0px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     border-color:#000000;
     border-width:3px;
+    box-shadow:1px 2px 3px #000000; 
+    z-index:-1;
     /*For the border to appear you need to specify it's style*/
     /*You can specify the color, and the style and the property of the border by adding more parameters */
 }
 
+/*Change this navigation menu later pleaseeee*/
 #navigation_menu{
     width:250px;
     border-width:2px;
     padding:10px;
-    margin-top:-455px;
+    margin-top:-405px;
     margin-left:800px;
     margin-right: 150px;
     border-radius:0px;
@@ -68,19 +65,34 @@ p.basictext{
     box-shadow:4px 2px 1px #000000;
 
 }
-#madotsukisleep{
-    width:200px;
-    margin-top:40px;
-    background-color:#050d2c;
-}
-#dancinglain{
-    width:150px;
+
+#taskbar{
+    position:relative;
+    background-color:#c5c3c6;
+    width:1327px;
+    height:49px;
+    margin-left:-220px;
+    margin-top:30px;
+
 }
 
+/*All the images of the home page are here */
 #basicbtn{
     color:#FFFFFF;
     margin:8px;
     padding:6px;
     background-color:#000000;
     width:70px;
+}
+#dancinglain{
+    width:150px;
+}
+#clippy{
+    margin-left:880px;
+    margin-top:70px;
+}
+#win{
+    width:47px;
+    margin-top:5px;
+    margin-left:16px;
 }
