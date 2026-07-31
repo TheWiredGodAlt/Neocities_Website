@@ -1,5 +1,5 @@
 /*The page body's css*/
-#mainpage{
+.mainpage{
     margin-top:10px;
     margin-bottom:10px;
     margin-right:auto;
@@ -10,12 +10,12 @@
 }
 
 /*Cool title for the about's text*/
-#aboutsite{
+.wintitle{
     width:540px;
     padding:5px;
     margin-bottom:-13px;
     margin-right:auto;
-    margin-left:-206px;
+    margin-left:auto;
     color:#f1eded;
     background-color:#010083;
     box-shadow:1px 0px 2px #000000;
@@ -34,7 +34,7 @@ p.basictext{
     margin-top:0px;
     margin-bottom:-400px;
     margin-right:auto;
-    margin-left:-200px;
+    margin-left:auto;
     float:center;
     background-color:#f1eded ;
     color:#575748;
@@ -48,32 +48,18 @@ p.basictext{
     /*For the border to appear you need to specify it's style*/
     /*You can specify the color, and the style and the property of the border by adding more parameters */
 }
-
-/*Change this navigation menu later pleaseeee*/
-#navigation_menu{
-    width:250px;
+div.basictext{
+    width:275px;
     border-width:2px;
+    text-align:center;
     padding:10px;
     margin-top:-405px;
-    margin-left:800px;
-    margin-right: 150px;
-    border-radius:0px;
-    color:#9eccdb;
-    text-shadow:-1px 1px 1px #5e5289;
-    text-align:center;
-    background-color:#00000e;
-    box-shadow:4px 2px 1px #000000;
-
-}
-
-#taskbar{
-    position:relative;
-    background-color:#c5c3c6;
-    width:1327px;
-    height:49px;
-    margin-left:-220px;
-    margin-top:30px;
-
+    margin-left:-200px;
+    border-radius:10px;
+    border-width:3px;
+    background-color:#f1eded ;
+    color:#575748;
+    box-shadow:1px 2px 3px #000000; 
 }
 
 /*All the images of the home page are here */
@@ -89,10 +75,6 @@ p.basictext{
 }
 #clippy{
     margin-left:880px;
-    margin-top:70px;
+    margin-top:140px;
 }
-#win{
-    width:47px;
-    margin-top:5px;
-    margin-left:16px;
-}
+
