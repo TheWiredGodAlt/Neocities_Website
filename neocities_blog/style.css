@@ -1,80 +1,181 @@
-/*The page body's css*/
-.mainpage{
-    margin-top:10px;
-    margin-bottom:10px;
-    margin-right:auto;
-    margin-left:auto;
-    width:900px;
-    height:399px;
-    background-color:#048080;
+:root {
+  --accent-blue:#3c0003 ;
+  --bg-plaid-1:#000000;
+  --bg-plaid-2: #cce7fa;
+  --text-dark: #000000;
+  --window-bg: #000000;
 }
 
-/*Cool title for the about's text*/
-.wintitle{
-    width:540px;
-    padding:5px;
-    margin-bottom:-13px;
-    margin-right:auto;
-    margin-left:auto;
-    color:#f1eded;
-    background-color:#010083;
-    box-shadow:1px 0px 2px #000000;
-    border-style:solid;
-    border-color:#000000;
-    border-width:1px;
-    float:center;
-    text-align:left;
-}
-p.basictext{
-    position:relative;
-    width:500px;
-    height:320px;
-    padding:20px;
-    padding-top:40px;
-    margin-top:0px;
-    margin-bottom:-400px;
-    margin-right:auto;
-    margin-left:auto;
-    float:center;
-    background-color:#f1eded ;
-    color:#575748;
-    text-align:center;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-color:#000000;
-    border-width:3px;
-    box-shadow:1px 2px 3px #000000; 
-    z-index:-1;
-    /*For the border to appear you need to specify it's style*/
-    /*You can specify the color, and the style and the property of the border by adding more parameters */
-}
-div.basictext{
-    width:275px;
-    border-width:2px;
-    text-align:center;
-    padding:10px;
-    margin-top:-405px;
-    margin-left:-200px;
-    border-radius:10px;
-    border-width:3px;
-    background-color:#f1eded ;
-    color:#575748;
-    box-shadow:1px 2px 3px #000000; 
+body {
+  margin: 0;
+  padding: 40px;
+  font-family: 'Courier New', Courier, monospace; /* Open-source system fallback */
+  font-size: 12px;
+  text-align: center;
+  color: var(--text-dark);
+  
+  /* Procedural generation of a gingham plaid pattern via CSS gradients */
+  background-color: var(--bg-plaid-1);
+  background-image: 
+    repeating-linear-gradient(0deg, rgba(119, 187, 255, 0.2) 0px, rgba(119, 187, 255, 0.2) 20px, transparent 20px, transparent 40px),
+    repeating-linear-gradient(90deg, rgba(119, 187, 255, 0.2) 0px, rgba(119, 187, 255, 0.2) 20px, transparent 20px, transparent 40px);
 }
 
-/*All the images of the home page are here */
-#basicbtn{
-    color:#FFFFFF;
-    margin:8px;
-    padding:6px;
-    background-color:#000000;
-    width:70px;
+/* Main Container - Asymmetrical Geometry */
+main.site-wrapper {
+  text-align: center;
+  margin: 0 auto;
+  width: 1080px;
+  max-width: 95vw;
+  padding: 15px;
+  background: var(--window-bg);
+  background-image:url("images/skullz.jpg");
+  background-repeat:repeat;
+  border: ridge 4px var(--accent-blue);
+  outline: solid 4px black;
+  /* Elliptical border radius mapping based on inspiration */
+  border-radius: 180px 6px 200px 6px; 
+  box-shadow: 5px 5px 0px rgba(0,0,0,0.2);
 }
-#dancinglain{
-    width:150px;
+
+/* Header Banner */
+.header-banner {
+  position: relative;
+  margin-left:70px;
+  margin-bottom: 15px;
+  border: ridge 4px var(--accent-blue);
+  border-radius: 60px 6px 60px 6px;
+  overflow: hidden;
 }
-#clippy{
-    margin-left:880px;
-    margin-top:140px;
+
+.site-title {
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  font-family: 'Courier New', monospace;
+  font-size: 45px;
+  color: black;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-shadow: 3px 3px 0px var(--accent-blue);
+  margin: 0;
+  z-index: 10;
+}
+
+/* Flexbox Layout Module */
+.flex-container {
+  display: flex;
+  gap: 45px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* Left Sidebar (Static Width) */
+.sidebar {
+  width: 280px;
+  flex-shrink: 0;
+  text-align: left;
+}
+
+/* Right Content Area (Fluid Width) */
+.content-area {
+  flex: 1;
+  max-width: 800px;
+  text-align: left;
+}
+
+/* Component: Boxes (Skeuomorphic Windows) */
+.box {
+  margin-bottom: 15px;
+  border: ridge 2px var(--accent-blue);
+  outline: solid 1px black;
+  border-radius: 10px;
+  background:#d2ccb0 ;
+  overflow: hidden;
+}
+
+.box-title {
+  background: var(--accent-blue);
+  color: white;
+  padding: 6px 12px;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 2px solid black;
+  text-shadow: 1px 1px 0px black;
+}
+
+.box-body {
+  padding: 15px;
+  line-height: 1.6;
+}
+
+/* Navigation Links */
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li {
+  margin-bottom: 5px;
+}
+
+.nav-links a {
+  display: block;
+  padding: 8px;
+  background: linear-gradient(180deg, #ffffff 0%, #e6f2ff 100%);
+  border: 2px outset var(--accent-blue);
+  border-radius: 4px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: all 0.1s;
+}
+
+.nav-links a:hover {
+  border-style: inset;
+  background: linear-gradient(180deg, #e6f2ff 0%, #ffffff 100%);
+  color: var(--accent-blue);
+}
+
+/* Image/GIF Placeholders (Mathematical Diagonal Stripes) */
+.placeholder {
+  width: 100%;
+  height: 100px;
+  border: 2px dashed #666666;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.placeholder.small { height: 80px; }
+.placeholder.inline { width: 150px; height: 150px; margin-right: 15px; flex-shrink: 0; }
+.flex-row { display: flex; align-items: flex-start; }
+
+/* Notice Box */
+.notice {
+  background: #ffe6e6;
+  border: 2px solid #ff0000;
+  padding: 12px;
+  margin-top: 15px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: bold;
+  color: #330000;
+}
+
+/* Custom WebKit Scrollbar (Open-Source Alternative to Image Scrollbars) */
+::-webkit-scrollbar { width: 16px; }
+::-webkit-scrollbar-track { background: #e6f2ff; border-left: 2px solid black; }
+::-webkit-scrollbar-thumb { 
+  background: linear-gradient(180deg, #ffffff 0%, var(--accent-blue) 100%); 
+  border: 2px outset #e6f2ff; 
+  border-radius: 4px;
 }
 

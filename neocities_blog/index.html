@@ -1,46 +1,93 @@
 <!DOCTYPE html>
-    <p lang="en-us"></p>
-    <script src="scripts/myfirstjs.js"></script>
-    <link href="style.css" type="text/css" rel="stylesheet">
-    <link rel="icon" href="images/reitonge.jpg">
-    <head>
-        <title>The Wired God Cyberspace</title>
-    </head>
-    <body class="mainpage">
-        <div id="bgtest">
-    <!--Figure and figure caption test-->
-    <!--Please ignore that this code looks bad as fuck-->
-            <h3 class="wintitle"><i><b>About</b></i></h3>
-            <p class="basictext">
-            <b>Welcome to the wiredgod Cyberspace, a digital tribute/museum to the old internet, Unix based OS's, and everything related to coding and developing!<br />
-               Here i'm going to yap about internet viruses, linux, how much microsoft is shit, and some art stuff too.<br />
-If you came here from my youtube channel, or came here for taking a look into some technical stuff, please take a look into the <a href=articles.html>Articles</a> section.<br />
-You can also take a look into my <a href="diary.html">blog</a> for some random yapping about my personal life and projects <br />
-Stay as long as you want! <br /> 
-(And please remember that this site is still a work in progress)(;-;)
-Here in this blog we hate all the AI "artwork" <br />
-                    I sure understand the good usage of AI, such as for research purposes and other stuff. <br />
-                    But, i hate all the AI "Artwork" and all it's implications, so, for a better world, don't use ai for art fuck AI
-                    <br /> <br /> OwO
-                 </b></p>
-    </div>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My_Netspace</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="images/reitonge.jpg">
+</head>
+<body>
 
-    <!--Basic site index for the content-->
-        <div class="basictext">
-            <img  id="dancinglain" src="images/dancing_lain.gif">
-            <h1>Hi random person!!</h1>
-            <a href="blogs/personal_blog/about.html">About</a><br />
-            <a href="blogs/personal_blog/diary.html">Weblog</a> <br />
-            <a href="blogs/personal_blog/diary.html">Arcticles</a><br />
-            <p id="test23">I hate my life</p>        
-            <button id="basicbtn">Test</button>
-            <script src="scripts/myfirstjs.js"></script>
+  <main class="site-wrapper">
+    
+    <header class="header-banner">
+      <!-- REPLACE WITH: <img src="your-header.gif" alt="Header" style="width:100%; display:block;"> -->
+      <div class="placeholder"><img src="images/reiban.png">  </div>
+    </header>
+
+    <div class="flex-container">
+      
+      <!-- LEFT SIDEBAR (Static Width Plane) -->
+      <aside class="sidebar">
+        
+        <div class="box">
+          <div class="box-title">Navigation</div>
+          <div class="box-body">
+            <ul class="nav-links">
+              <li><a href="index.html">» Home</a></li>
+              <li><a href="about.html">» About</a></li>
+              <li><a href="diary.html">» Weblog</a></li>
+              <li><a href="articles.html">» Articles</a></li>
+            </ul>
+          </div>
         </div>
 
-    <figure>
-        <img id="clippy"  src="images/clippy-head-scratch.gif">
-    </figure>
-    
-    <!-- Basic ending (i hate youtube shorts and reels they both suck fuck tiktok too)-->
+        <div class="box">
+          <div class="box-title">System Status</div>
+          <div class="box-body">
+            <!-- REPLACE WITH: <img src="your-status.gif" alt="Status" style="width:100%;"> -->
+            <div class="placeholder small">[ STATUS GIF ]</div>
+            <p style="margin-top:10px; font-size:11px;"><b>OS:</b> Arch Linux<br><b>Uptime:</b> ∞</p>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="box-title">Updates</div>
+          <div class="box-body" style="height: 150px; overflow-y: auto; font-size: 11px;">
+            <p><b>08/09/26:</b> Layout refactored to match inspiration.</p>
+            <p><b>08/01/26:</b> Added anti-AI manifesto.</p>
+            <p><b>07/25/26:</b> Initial Cyberspace deployment.</p>
+          </div>
+        </div>
+
+      </aside>
+
+      <!-- RIGHT MAIN CONTENT (Fluid Width Plane) -->
+      <section class="content-area">
+        
+        <div class="box">
+          <div class="box-title">About the Cyberspace</div>
+          <div class="box-body">
+            <div class="flex-row">
+              <!-- REPLACE WITH: <img src="your-profile.gif" alt="Profile" style="width:150px; height:150px; margin-right:15px; border:2px solid black;"> -->
+              <div class="placeholder inline">[ PROFILE PIC ]</div>
+              <div>
+                <p>Welcome to the WiredGod Cyberspace, a digital tribute/museum to the old internet, Unix-based OS's, and everything related to coding and developing!</p>
+                <p>Here I'm going to yap about internet viruses, Linux, how much Microsoft is shit, and some art stuff too.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="box-title">Manifesto & Directives</div>
+          <div class="box-body">
+            <p>If you came here from my YouTube channel, or came here for taking a look into some technical stuff, please take a look into the <a href="articles.html">Articles</a> section.</p>
+            <p>You can also take a look into my <a href="diary.html">blog</a> for some random yapping about my personal life and projects.</p>
+            <p>Stay as long as you want! <br>(And please remember that this site is still a work in progress) ( ; - ; )</p>
+            
+            <div class="notice">
+              <b>NOTICE:</b> Here in this blog we hate all the AI "artwork". I understand the good usage of AI, such as for research purposes. But, I hate all the AI "Artwork" and all its implications. For a better world, don't use AI for art. Fuck AI.
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </div>
+  </main>
+
 </body>
 </html>
+
+
